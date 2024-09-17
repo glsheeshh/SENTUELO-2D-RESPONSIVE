@@ -1,0 +1,92 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+* {
+    font-family: sans-serif;
+    font-style: bold;
+    color: white;
+}
+
+.header {
+    background-color: pink;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 2%;
+    font-size: 50px;
+}
+
+.navigations {
+    background-color: hotpink;
+}
+
+nav, a {
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.decorations {
+    background-color: beige;
+    margin: 0;
+    padding: 20px;
+}
+
+img {
+    width: 24%;
+    height: auto;
+    margin-left: 8px;
+}
+
+.textbox {
+    background-color: green;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.footer {
+    background-color: pink;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navigations {
+        padding: 10px;
+    }
+    nav, a {
+        padding: 10px;
+        font-size: 20px;
+    }
+    .decorations {
+        padding: 10px;
+    }
+    img {
+        width: 30%;
+        margin-left: 5px;
+    }
+    .textbox {
+        padding: 5px;
+    }
+    .text {
+        font-size: 18px;
+    }
+    footer {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
